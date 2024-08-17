@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+/* Navbar start */
+.navbar-main-container {
+    max-width: 1480px;
+    height: 30px;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+      0 0 2px rgb(0 0 0 / 7%);
+  }
+  .logo-container{height: 30px;width: 30px;}
+
+
+  .navbar-right {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    margin-right: 5px;
+    width: 45%;
+    text-align: right;
+  }
+  .navbar-ul {
+    display: flex;
+    padding-inline: 10px;
+  }
+  .navbar-li {
+    margin: 0 15px;
+    font-weight: bold;
+    display: flex;
+  }
+  .navbar-a {
+    color: #000;
+    text-decoration: none;
+  }
+/* Navbar end*/
+   /* header start */
+.welcome-section{background-color: #ebdbc8;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+.pic-drinks{width: 450px;;
+  display: flex;
+  justify-self: center;
+  margin: 0 auto;}
+
+.header-content{width: 50%;
+  height: 100%;
+  font-size: larger;
+  padding: 20px 0;
+  margin: 0 auto;}
+.header-content h1{font-weight: bolder;}
+
+.btn-join-now {
+    cursor: pointer;
+    color:#fff;
+    display: inline-block;
+    background: none;
+    border: 1px #fff solid;
+    border-radius: 50px;
+    padding: 7px 16px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    hover {background-color: rgba(0, 0, 0, 0.06);}
+  }
+     /* header end */
+  /* menu start*/
+  .menu-section{width: 100%;height: 100%;}
+
+  #shoper{
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 60px;
+}
+#shoper span{font-size: larger;}
+.cards-holder{
+  width: 100%;height: 500px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.card{background-color:
+  #008148;
+   width: 20%;
+   height: 300px;
+align-items: center;
+text-align: center;
+flex-direction: column;
+display: flex;
+}
+.card-pic-holder{width: 60px;height: 60;}
+    /* menu end */
